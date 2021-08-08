@@ -1,0 +1,18 @@
+Inventory:
+  title: "Shop - Confirmar"
+  size: 36
+  item-slot: 13
+  items:
+    1:
+      type: LIME_WOOL
+      name: "&aConfirmar"
+      lore:
+        - '&7Preço: &6{price}'
+        - '&7Quantia: &fx{amount}'
+      slot: 20
+      action: CONFIRM
+    2:
+      type: RED_WOOL
+      name: "&cCancelar"
+      slot: 24
+      action: CANCEL

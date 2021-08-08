@@ -1,0 +1,6 @@
+name: ${project.artifactId}
+description: ${project.description}
+version: ${project.version}
+author: zPedroo_
+main: com.zpedroo.voltzcash.VoltzCash
+api-version: 1.16

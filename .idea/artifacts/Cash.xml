@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Cash">
+    <output-path>$USER_HOME$/Desktop/Testes/plugins</output-path>
+    <root id="archive" name="Cash.jar">
+      <element id="module-output" name="Cash [Rankup Overpower]" />
+    </root>
+  </artifact>
+</component>

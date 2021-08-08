@@ -1,0 +1,48 @@
+last-id: 0
+
+Inventory:
+  title: "Cash - Compras"
+  size: 54
+  slots: 11,12,13,14,15,20,21,22,23,24,29,30,31,32,33 # 15
+  next-page-slot: 26 # só vai aparecer se tiver próxima página
+  previous-page-slot: 18 # só vai aparecer se tiver página anterior
+
+Purchase-Item:
+  type: PLAYER_HEAD
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+  name: "&cCompra"
+  lore:
+    - '&7Abaixo estão as informações'
+    - '&7dessa compra:'
+    - ''
+    - ' &8▶ &7Efetuada em: &f{date}'
+    - ' &8▶ &7Produto adquirido: &f{item}'
+    - ' &8▶ &7Quantia: &fx{amount}'
+    - ' &8▶ &7Saldo descontado: &c-{price}'
+    - ' &8▶ &7ID: &f#{id}'
+
+Empty:
+  type: COBWEB
+  name: "&cVazio"
+  slot: 22
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+  slot: 26
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+  slot: 18
+
+Switch:
+  type: PLAYER_HEAD
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc5YWRkM2U1OTM2YTM4MmE4ZjdmZGMzN2ZkNmZhOTY2NTNkNTEwNGViY2FkYjBkNGY3ZTlkNGE2ZWZjNDU0In19fQ==
+  name: '&6Visualizar'
+  lore:
+    - ' &8▶ &8Transações'
+    - ' &8▶ &aCompras'
+    - ''
+    - '&7Clique para alterar!'
+  slot: 49
